@@ -1,0 +1,22 @@
+{
+  "name": "da-gsa",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "nexe index.js -o dist/da-gsa.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "=14.15.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "nexe": "^4.0.0-rc.2"
+  }
+}
